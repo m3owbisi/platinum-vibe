@@ -12,7 +12,10 @@ export const metadata: Metadata = {
   description: "Platinum VIBE, Model Town, Versova: virtual tour",
   applicationName: "Platinum VIBE",
   appleWebApp: { capable: true, statusBarStyle: "black-translucent", title: "Platinum VIBE" },
-  icons: { apple: "/icons/apple-touch-icon.png" },
+  icons: {
+    icon: [{ url: "/icons/icon-192.png?v=pv", sizes: "192x192", type: "image/png" }, { url: "/icons/icon-512.png?v=pv", sizes: "512x512", type: "image/png" }],
+    apple: "/icons/apple-touch-icon.png?v=pv",
+  },
   other: { "apple-mobile-web-app-capable": "yes" },
 };
 

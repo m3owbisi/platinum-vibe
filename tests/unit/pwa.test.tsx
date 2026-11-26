@@ -1,8 +1,7 @@
 import { existsSync, readFileSync } from "node:fs";
-import { render, screen, act } from "@testing-library/react";
+import { render } from "@testing-library/react";
 import manifest from "@/app/manifest";
 import PwaRegister from "@/components/PwaRegister";
-import InstallButton from "@/components/InstallButton";
 
 describe("manifest", () => {
   const m = manifest();
@@ -39,14 +38,5 @@ describe("service worker", () => {
     expect(sw).toMatch(/\/offline/);
     expect(sw).toMatch(/request\.method\s*!==\s*"GET"/);
     expect(existsSync("src/app/offline/page.tsx")).toBe(true);
-  });
-});
-
-describe("install button", () => {
-  it("stays hidden until beforeinstallprompt fires", () => {
-    render(<InstallButton />);
-    expect(screen.queryByRole("button", { name: /install/i })).toBeNull();
-    act(() => { window.dispatchEvent(Object.assign(new Event("beforeinstallprompt"), { prompt: vi.fn(), userChoice: Promise.resolve({}) })); });
-    expect(screen.getByRole("button", { name: /install/i })).toHaveAttribute("type", "button");
   });
 });

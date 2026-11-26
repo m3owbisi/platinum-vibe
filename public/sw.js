@@ -7,6 +7,7 @@ const CAP = 60;
 const PRECACHE = [
   "/", "/offline", "/manifest.webmanifest", "/tvrc-mark.svg",
   "/images/bg-home.webp", "/images/logo-platinum-vibe.webp", "/images/logo-platinum-corp.webp",
+  "/images/logo-part-platinum.webp", "/images/logo-part-v.webp", "/images/logo-part-i.webp", "/images/logo-part-b.webp", "/images/logo-part-e.webp", "/images/logo-part-tagline.webp",
   "/images/card-show-flat.webp", "/images/card-aerial-view.webp", "/images/card-amenities.webp", "/images/card-connectivity.webp",
   "/images/card-renders.webp", "/images/card-presentation.webp", "/images/card-3d-elevation.webp", "/images/card-plans.webp",
 ];
