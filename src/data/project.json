@@ -1,0 +1,20 @@
+{
+  "name": "Platinum VIBE",
+  "tagline": "Model Town, Versova",
+  "background": "/images/bg-home.webp",
+  "logos": {
+    "project": { "src": "/images/logo-platinum-vibe.webp", "alt": "Platinum VIBE, Model Town, Versova", "width": 614, "height": 411 },
+    "developer": { "src": "/images/logo-platinum-corp.webp", "alt": "Platinum Corp", "width": 572, "height": 157 }
+  },
+  "credit": { "label": "The VR Company", "href": "https://thevrcompany.in", "mark": "/tvrc-mark.svg" },
+  "cards": [
+    { "id": "show-flat", "title": "Show Flat", "subtitle": "Walkthrough each space", "image": "/images/card-show-flat.webp", "href": "/show-flat" },
+    { "id": "aerial-view", "title": "Aerial View", "subtitle": "View from Top", "image": "/images/card-aerial-view.webp", "href": "/aerial-view" },
+    { "id": "amenities", "title": "Amenities", "subtitle": "Walkthrough each space", "image": "/images/card-amenities.webp", "href": "/amenities" },
+    { "id": "connectivity", "title": "Connectivity", "subtitle": "Walkthrough each space", "image": "/images/card-connectivity.webp", "href": "/connectivity" },
+    { "id": "renders", "title": "Renders", "subtitle": "Walkthrough each space", "image": "/images/card-renders.webp", "href": "/renders" },
+    { "id": "presentation", "title": "Presentation", "subtitle": "Walkthrough each space", "image": "/images/card-presentation.webp", "href": "/presentation" },
+    { "id": "3d-elevation", "title": "3D Elevation", "subtitle": "Walkthrough each space", "image": "/images/card-3d-elevation.webp", "href": "/3d-elevation" },
+    { "id": "plans", "title": "Plans", "subtitle": "Walkthrough each space", "image": "/images/card-plans.webp", "href": "/plans" }
+  ]
+}
